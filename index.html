@@ -2,11 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#08111f" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <script>document.documentElement.className += ' js';</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Relatório interativo de desempenho de campanha Google Ads e proposta de continuidade." />
   <title>Relatório de Campanha | Google Ads</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -199,113 +195,6 @@
     @media (max-width:480px){.kpi-grid{grid-template-columns:1fr}.hero-side .big{font-size:2.55rem}.card{padding:19px}.brand-logo{width:150px;height:52px}.brand-copy{display:none}.topbar{padding:10px 12px}.period{font-size:.74rem}}
     @media print{
       body{background:#fff;color:#111;padding-top:88px}.topbar{display:flex!important;position:fixed;top:0;left:0;right:0;width:100%;border-radius:0;background:#fff;box-shadow:none;border:0;border-bottom:1px solid #ddd;z-index:999}.tabs,.print-btn,.cta button{display:none!important}.tab-panel{display:block!important}.shell{width:100%;padding:0}.card,details,.hero-side{box-shadow:none;background:#fff;color:#111;border-color:#ddd}.hero{padding-top:10px}.muted,.card-sub,.hero p,.section-title p,details .detail-body,.reason span,.phase p,.proposal-list li,.source-note{color:#444!important}.tab-panel{page-break-before:always;padding-top:20px}.brand-logo{width:185px;height:64px}.brand-copy strong{color:#111}.brand-copy span,.period{color:#555!important}.kpi .name{color:#555}.chart text{fill:#555}.chart .gridline{stroke:#ddd}.chart .axis{stroke:#bbb}}
-  
-
-    /* Compatibilidade e responsividade ampla */
-    html{-webkit-text-size-adjust:100%;text-size-adjust:100%;overflow-x:hidden}
-    body{overflow-x:hidden;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
-    img,svg,video,canvas{max-width:100%;height:auto}
-    button,a,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
-    button{appearance:none;-webkit-appearance:none}
-    .topbar,.tabs{-webkit-backdrop-filter:blur(14px)}
-    .kpi .icon{background:rgba(255,255,255,.07)}
-    .accent-blue .icon{background:rgba(76,167,255,.14)}
-    .accent-orange .icon{background:rgba(255,138,61,.14)}
-    .accent-green .icon{background:rgba(65,214,149,.14)}
-    .accent-yellow .icon{background:rgba(255,209,102,.14)}
-    .accent-red .icon{background:rgba(255,107,107,.14)}
-
-    /* Sem JavaScript, todo o conteúdo permanece acessível */
-    .tab-panel{display:block}
-    .js .tab-panel{display:none}
-    .js .tab-panel.active{display:block}
-
-    .chart{overflow:hidden}
-    .chart svg{min-width:0}
-    .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-
-    @media (max-width:1100px){
-      .kpi-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-      .hero{grid-template-columns:1fr .72fr}
-      .brand-logo{width:185px;height:64px}
-    }
-
-    @media (max-width:860px){
-      .shell{width:min(100% - 24px,760px);padding-top:16px}
-      .topbar{position:relative;top:auto;align-items:flex-start;padding:14px}
-      .brand-logo{width:156px;height:54px}
-      .brand-copy{display:none}
-      .period{font-size:.76rem;line-height:1.45}
-      .hero{grid-template-columns:1fr;padding:42px 0 22px}
-      .hero-side{max-width:none}
-      .tabs{top:8px;display:flex;overflow-x:auto;gap:8px;scrollbar-width:none;padding:7px;justify-content:flex-start}
-      .tabs::-webkit-scrollbar{display:none}
-      .tab-btn{flex:0 0 auto;min-width:185px;white-space:nowrap;padding:13px 14px}
-      .section-title{align-items:flex-start;flex-direction:column}
-      .section-title p{max-width:none}
-      .kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-      .two-col,.proof,.benchmark,.renew-grid,.proposal,.limit-grid{grid-template-columns:1fr!important}
-      .card{padding:20px}
-      .chart{height:auto;min-height:260px;overflow-x:auto;-webkit-overflow-scrolling:touch}
-      .chart svg{min-width:580px;height:290px}
-      .funnel-row{grid-template-columns:92px minmax(120px,1fr) 64px;gap:10px}
-      .compare-item{grid-template-columns:118px minmax(120px,1fr) 72px;gap:10px}
-      .cta{flex-direction:column;align-items:stretch}
-      .cta button{width:100%}
-      footer{flex-direction:column;align-items:flex-start;gap:8px}
-    }
-
-    @media (max-width:560px){
-      :root{--radius:18px;--shadow:0 12px 34px rgba(0,0,0,.24)}
-      .shell{width:100%;padding:0 12px 40px}
-      .topbar{margin-top:10px;border-radius:16px;gap:8px}
-      .brand-logo{width:128px;height:46px}
-      .period{max-width:145px;font-size:.68rem}
-      .hero{padding:32px 2px 18px;gap:18px}
-      h1{font-size:clamp(2rem,12vw,3rem);line-height:1.02}
-      .hero p{font-size:.96rem;line-height:1.65;margin-top:18px}
-      .hero-side{padding:20px}
-      .hero-side .big{font-size:2.5rem}
-      .tabs-wrap{margin-top:14px}
-      .tabs{border-radius:15px}
-      .tab-btn{min-width:160px;font-size:.82rem;padding:12px}
-      .tab-panel{padding-top:20px}
-      .section-title h2{font-size:1.55rem}
-      .section-title p{font-size:.9rem}
-      .kpi-grid{grid-template-columns:1fr 1fr;gap:10px}
-      .kpi{min-height:132px;padding:16px}
-      .kpi .icon{width:34px;height:34px;margin-bottom:17px}
-      .kpi .value{font-size:1.38rem}
-      .kpi .name{font-size:.76rem}
-      .card{padding:17px;border-radius:18px}
-      .card-sub{margin-bottom:18px}
-      .proof{gap:12px}
-      .proof figure{margin:0}
-      summary{padding:17px;font-size:.92rem}
-      details .detail-body{padding:0 17px 17px;font-size:.88rem}
-      .reason{padding:14px}
-      .phase{padding-left:30px}
-      .price{font-size:1.85rem}
-      .comparison-card{overflow:hidden}
-      .comparison-card > div[style*="overflow"]{margin-left:-4px;margin-right:-4px;-webkit-overflow-scrolling:touch}
-      .warning,.insight{padding:14px}
-      .print-btn{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));width:48px;height:48px}
-    }
-
-    @media (max-width:380px){
-      .shell{padding-left:9px;padding-right:9px}
-      .brand-logo{width:112px}
-      .period{font-size:.62rem;max-width:128px}
-      .kpi-grid{grid-template-columns:1fr}
-      .kpi{min-height:118px}
-      .tab-btn{min-width:150px}
-      h1{font-size:1.95rem}
-    }
-
-    @media (prefers-reduced-motion:reduce){
-      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
-    }
-
   </style>
 </head>
 <body>
@@ -335,9 +224,9 @@
 
     <div class="tabs-wrap">
       <nav class="tabs" aria-label="Seções do relatório">
-        <button type="button" class="tab-btn active" data-tab="resultados">1. Resultados</button>
-        <button type="button" class="tab-btn" data-tab="analise">2. Análise e limitações</button>
-        <button type="button" class="tab-btn" data-tab="renovacao">3. Renovação e proposta</button>
+        <button class="tab-btn active" data-tab="resultados">1. Resultados</button>
+        <button class="tab-btn" data-tab="analise">2. Análise e limitações</button>
+        <button class="tab-btn" data-tab="renovacao">3. Renovação e proposta</button>
       </nav>
 
       <section id="resultados" class="tab-panel active">
@@ -529,71 +418,45 @@
 
         <div class="cta">
           <div><h3>Decisão recomendada</h3><p>Renovar por 90 dias, corrigir a mensuração e escolher entre uma ampliação gradual de R$ 900 a R$ 1.000 por mês ou o cenário ideal de R$ 1.500 por mês para acelerar a geração de dados e oportunidades.</p></div>
-          <button type="button" onclick="window.print()">Gerar versão em PDF</button>
+          <button onclick="window.print()">Gerar versão em PDF</button>
         </div>
       </section>
     </div>
 
     <footer>
       <span>Relatório elaborado para apresentação comercial. Resultados futuros dependem de mercado, concorrência, oferta, página, atendimento e orçamento.</span>
-      <span>CT Junior • Relatório de campanha Google Ads</span>
+      <span>Benchmark: WordStream, Google Ads Benchmarks 2025.</span>
     </footer>
   </main>
-  <button type="button" class="print-btn" title="Imprimir ou salvar em PDF" onclick="window.print()">⤓</button>
+  <button class="print-btn" title="Imprimir ou salvar em PDF" onclick="window.print()">⤓</button>
 
   <script>
-    (function () {
-      var buttons = document.querySelectorAll('.tab-btn');
-      var panels = document.querySelectorAll('.tab-panel');
+    // ABAS: altere os textos dos botões no HTML, mantendo os mesmos valores em data-tab e id.
+    const buttons = document.querySelectorAll('.tab-btn');
+    const panels = document.querySelectorAll('.tab-panel');
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        buttons.forEach(item => item.classList.remove('active'));
+        panels.forEach(panel => panel.classList.remove('active'));
+        button.classList.add('active');
+        document.getElementById(button.dataset.tab).classList.add('active');
+        window.scrollTo({top: document.querySelector('.tabs-wrap').offsetTop - 12, behavior:'smooth'});
+      });
+    });
 
-      function removeClass(el, name) {
-        el.className = el.className.replace(new RegExp('(^|\s)' + name + '(?=\s|$)', 'g'), ' ').replace(/\s+/g, ' ').replace(/^ | $/g, '');
-      }
-      function addClass(el, name) {
-        if ((' ' + el.className + ' ').indexOf(' ' + name + ' ') === -1) el.className += ' ' + name;
-      }
-      function openTab(id, updateHash) {
-        var target = document.getElementById(id);
-        if (!target) return;
-        var i;
-        for (i = 0; i < buttons.length; i++) {
-          removeClass(buttons[i], 'active');
-          buttons[i].setAttribute('aria-selected', 'false');
+    // ANIMAÇÃO DOS KPIs: mantém a apresentação mais dinâmica sem bibliotecas externas.
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.animate([
+            {opacity:0, transform:'translateY(18px)'},
+            {opacity:1, transform:'translateY(0)'}
+          ], {duration:550, easing:'cubic-bezier(.2,.8,.2,1)', fill:'both'});
+          observer.unobserve(entry.target);
         }
-        for (i = 0; i < panels.length; i++) removeClass(panels[i], 'active');
-        for (i = 0; i < buttons.length; i++) {
-          if (buttons[i].getAttribute('data-tab') === id) {
-            addClass(buttons[i], 'active');
-            buttons[i].setAttribute('aria-selected', 'true');
-          }
-        }
-        addClass(target, 'active');
-        if (updateHash && window.history && window.history.replaceState) {
-          window.history.replaceState(null, '', '#' + id);
-        }
-        var wrap = document.querySelector('.tabs-wrap');
-        if (wrap && window.scrollTo) {
-          try { window.scrollTo({ top: wrap.offsetTop - 8, behavior: 'smooth' }); }
-          catch (e) { window.scrollTo(0, wrap.offsetTop - 8); }
-        }
-      }
-
-      var i;
-      for (i = 0; i < buttons.length; i++) {
-        buttons[i].setAttribute('role', 'tab');
-        buttons[i].setAttribute('aria-selected', buttons[i].className.indexOf('active') !== -1 ? 'true' : 'false');
-        buttons[i].onclick = function () { openTab(this.getAttribute('data-tab'), true); };
-      }
-      for (i = 0; i < panels.length; i++) panels[i].setAttribute('role', 'tabpanel');
-
-      var hash = window.location.hash ? window.location.hash.substring(1) : '';
-      openTab(document.getElementById(hash) ? hash : 'resultados', false);
-
-      window.onhashchange = function () {
-        var next = window.location.hash ? window.location.hash.substring(1) : 'resultados';
-        if (document.getElementById(next)) openTab(next, false);
-      };
-    }());
+      });
+    }, {threshold:.12});
+    document.querySelectorAll('.kpi,.card,details').forEach(el => observer.observe(el));
   </script>
 </body>
 </html>
